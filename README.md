@@ -1,5 +1,5 @@
 # Description
-This is my minecrat website.
+This is my minecraft website.
 
 # Live link
 The live link can be found here:
