@@ -291,44 +291,44 @@ a:hover {
 	transition: all .2s ease-in;
 }
 
-#gamemodes {
+#commands {
 	margin: 10px;
 	text-align: center;
 	padding-top: 66px;
 	padding-bottom: 66px;
 }
 
-#gamemodes h1 {
+#commands h1 {
 	font-size: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 15px;
 }
 
-#gamemodes h2 {
+#commands h2 {
 	margin-top: 5px;
 	font-size: 20px;
 }
 
-#gamemodes p {
+#commands p {
 	margin-top: 3px;
 	font-size: 18px;
 }
 
-#gamemodes .gray {
+#commands .gray {
 	background-color: #ecf0f1;
     padding: 0;
     margin: -10px;
 }
 
-#gamemodes .mode {
+#commands .mode {
 	margin: 15px;
 	text-align: left;
 	padding: 50px;
 	max-width: 1280px;
 }
 
-#gamemodes .mode-inv {
+#commands .mode-inv {
 	margin: 15px;
 	text-align: right;
 	padding: 50px;
@@ -336,7 +336,7 @@ a:hover {
 }
 
 @media screen and (min-width: 800px) {
-	#gamemodes .img {
+	#commands .img {
 		margin: 15px;
 		padding: 50px;
 		max-width: 1280px
@@ -344,12 +344,12 @@ a:hover {
 }
 
 @media screen and (max-width: 799px) {
-	#gamemodes .img {
+	#commands .img {
 		padding: 50px 0px 50px 0px;
 	}
 }
 
-#gamemodes .fixed-width {
+#commands .fixed-width {
 	max-width: 1280px;
 	margin: 0 auto;
 }
