@@ -487,7 +487,7 @@ footer {
 }
 
 .description {
-	width: 50%;
+	width: 40%;
 	margin: 50px auto 0 auto;
 }
 
@@ -497,4 +497,5 @@ footer {
 }
 
 .description-text {
+	font-size: 18px;
 }
