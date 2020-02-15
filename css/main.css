@@ -464,7 +464,9 @@ footer {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 4px;
-    width: 250px;
+	width: 250px;
+	position: relative;	
+	font-family: 'PT Sans', sans-serif;
 }
 
 #copyButton:hover {
@@ -514,4 +516,9 @@ footer {
     font-family: 'PT Sans';
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.cta {
+	margin-top: 30px;	
+	font-size: 20px;
 }
