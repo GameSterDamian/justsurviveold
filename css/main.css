@@ -464,6 +464,7 @@ footer {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 4px;
+    width: 250px;
 }
 
 #copyButton:hover {
