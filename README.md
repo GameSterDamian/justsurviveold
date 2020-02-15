@@ -1,9 +1,9 @@
 # Description
-This is my minecraft website.
+This is a website for my minecraft server!
 
 # Live link
 The live link can be found here:
-
+https://justsurvivemc.com/
 
 # Credits
 
