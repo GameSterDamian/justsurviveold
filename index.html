@@ -57,7 +57,10 @@
 
 	<!-- Header (Banner) -->
 	<header id="head" class="parallax">
-		<p style="text-align: center;"><button id="copyButton">PLAY.JUSTSURVIVEMC.COM</button></p>
+		<div class='number-players-container'>
+			Join <span id='number-players'></span> players online now!
+			<p style="text-align: center;"><button id="copyButton">PLAY.JUSTSURVIVEMC.COM</button></p>
+		</div>
 <script>
 function copyText(text){
   function selectElementText(element) {
@@ -399,5 +402,19 @@ function mouseOut() {
 	}
 	</script>
 
+	<script>
+		// Get the live count of players
+
+		const url = "https://mcapi.us/server/status?ip=justsurvive.mcpvp.live&port=25580";
+		fetch(url)
+			.then((response) => {
+				return response.json();
+			})
+			.then((myJson) => {
+				const numPlayers = myJson.players.now;
+				const numPlayerContainer = document.getElementById('number-players');
+				numPlayerContainer.innerHTML = numPlayers;
+			});
+	</script>
 </body>
 </html>

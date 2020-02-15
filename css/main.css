@@ -500,3 +500,18 @@ footer {
 .description-text {
 	font-size: 18px;
 }
+
+#number-players {
+	color: #0095ff;
+}
+
+.number-players-container {
+	font-size: 50px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.38);
+    margin-bottom: 20px;
+    padding: 10px 0;
+    font-family: 'PT Sans';
+    text-transform: uppercase;
+    font-weight: bold;
+}
