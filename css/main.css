@@ -522,3 +522,39 @@ footer {
 	margin-top: 30px;	
 	font-size: 20px;
 }
+
+.staffButton {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #246997;
+    border-radius: 8px;
+    background: #3baaf6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3baaf6), to(#246997));
+    background: -moz-linear-gradient(top, #3baaf6, #246997);
+    background: linear-gradient(to bottom, #3baaf6, #246997);
+    -webkit-box-shadow: #369de3 0px 0px 40px 0px;
+    -moz-box-shadow: #369de3 0px 0px 40px 0px;
+    box-shadow: #369de3 0px 0px 40px 0px;
+    text-shadow: #17425f 1px 1px 1px;
+    font: normal normal bold 22px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid #2d83bd;
+    background: #47ccff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#47ccff), to(#2b7eb5));
+    background: -moz-linear-gradient(top, #47ccff, #2b7eb5);
+    background: linear-gradient(to bottom, #47ccff, #2b7eb5);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #246997;
+    background: -webkit-gradient(linear, left top, left bottom, from(#246997), to(#246997));
+    background: -moz-linear-gradient(top, #246997, #246997);
+    background: linear-gradient(to bottom, #246997, #246997);
+}
