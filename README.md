@@ -1,9 +1,13 @@
+# Warning
+This website is old.
+Find the new website here: http://justsurvivemc.com/
+
 # Description
 This is a website for my minecraft server!
 
 # Live link
 The live link can be found here:
-https://justsurvivemc.com/
+http://gamesterdamian.github.io/
 
 # Credits
 
